@@ -17,4 +17,5 @@ bash go.sh
 
 close & reopen msys2
 
+
 type `rsync -h` & press enter for help

@@ -1,3 +1,5 @@
+cd ..
+
 pacman --noconfirm -S unzip
 
 wget https://github.com/facebook/zstd/releases/download/v1.4.4/zstd-v1.4.4-win64.zip
@@ -29,5 +31,7 @@ tar -xvf libxxhash-0.8.3-1-x86_64.pkg.tar
 mv usr/bin/msys-xxhash-0.dll .
 rm -r usr
 rm libxxhash-0.8.3-1-x86_64.pkg*
+
+rm -r rsync-msys2
 
 rsync -h

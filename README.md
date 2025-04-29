@@ -14,3 +14,5 @@ git clone https://github.com/serkankazak/rsync-msys2.git
 cd rsync-msys2
 bash go.sh
 ```
+
+close & reopen msys2

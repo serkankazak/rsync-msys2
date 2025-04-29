@@ -7,7 +7,7 @@ download exe from https://github.com/msys2/msys2-installer/releases (under Asset
 
 install it & run msys2
 
-copy & paste followings and press enter
+copy followings & paste (right click then paste) and press enter
 ```
 pacman --noconfirm -S git
 git clone https://github.com/serkankazak/rsync-msys2.git

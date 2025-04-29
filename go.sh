@@ -32,9 +32,4 @@ mv usr/bin/msys-xxhash-0.dll .
 rm -r usr
 rm libxxhash-0.8.3-1-x86_64.pkg*
 
-cd ~
-source ~/.bashrc
-
-echo -e "\n\nDONE\n\n"
-
-echo -e "\n\ntype 'rsync -h' & press enter for help\n\n"
+echo -e "\n\nDONE, close & reopen msys2 & type 'rsync -h' & press enter for help\n\n"

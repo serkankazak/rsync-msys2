@@ -33,7 +33,6 @@ rm -r usr
 rm libxxhash-0.8.3-1-x86_64.pkg*
 
 cd ..
-
+source ~/.bashrc
 rsync -h
-
-echo DONE
+echo -e "\n\nDONE\n\n"

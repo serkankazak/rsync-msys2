@@ -32,4 +32,8 @@ mv usr/bin/msys-xxhash-0.dll .
 rm -r usr
 rm libxxhash-0.8.3-1-x86_64.pkg*
 
+cd ..
+
 rsync -h
+
+echo DONE

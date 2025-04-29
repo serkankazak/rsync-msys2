@@ -2,12 +2,12 @@
 
 ## How to use rsync on Windows?
 
-download exe from https://github.com/msys2/msys2-installer/releases (click Assets & download something like 'msys2-x86_64-20250221.exe
+download exe from https://github.com/msys2/msys2-installer/releases (click Assets and download something like 'msys2-x86_64-20250221.exe
 ')
 
-install it & run msys2
+install it and run msys2
 
-copy followings & paste (right click then paste) and press enter and wait
+copy followings and paste (right click then paste) and press enter and wait
 ```
 pacman --noconfirm -S git
 git clone https://github.com/serkankazak/rsync-msys2.git
@@ -15,7 +15,7 @@ cd rsync-msys2
 bash go.sh
 ```
 
-close & reopen msys2
+close and reopen msys2
 
 
-type `rsync -h` & press enter for help
+type `rsync -h` and press enter for help

@@ -5,7 +5,7 @@
 download exe from https://github.com/msys2/msys2-installer/releases (under Assets, something like 'msys2-x86_64-20250221.exe
 ')
 
-run msys2
+install it & run msys2
 
 copy & paste followings and press enter
 ```

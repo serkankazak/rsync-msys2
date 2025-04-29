@@ -2,7 +2,7 @@
 
 ## How to use rsync on Windows?
 
-download exe from https://github.com/msys2/msys2-installer/releases
+download exe from (under Assets) https://github.com/msys2/msys2-installer/releases
 
 run msys2
 

@@ -37,4 +37,4 @@ source ~/.bashrc
 
 echo -e "\n\nDONE\n\n"
 
-ecnho -e "\n\ntype 'rsync -h' & press enter for help\n\n"
+echo -e "\n\ntype 'rsync -h' & press enter for help\n\n"

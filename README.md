@@ -17,5 +17,14 @@ bash go.sh
 
 close and reopen msys2
 
-
 type `rsync -h` and press enter for help
+
+### Optional: install ssh and sshpass to use with rsync
+
+```
+pacman -S openssh
+t=$(curl -sL https://repo.msys2.org/msys/x86_64 | grep -oE 'sshpass-[^"]+-x86_64.pkg.tar.zst' | sort -u | tail -n 1)
+wget "https://repo.msys2.org/msys/x86_64/$t"
+pacman -U "./$t"
+rm "$t"
+```
